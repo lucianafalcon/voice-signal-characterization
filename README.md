@@ -1,10 +1,17 @@
-# 🎙️ Voice Signal Analysis / Análisis de la Señal de Voz
+# Voice Signal Analysis / Análisis de la Señal de Voz
 
 This repository contains a signal processing project focused on the spectral and temporal analysis of the human voice, as well as voice modification techniques such as pitch shifting and time stretching, implemented in Python.
 
-## 📁 Repository Structure
+## Summary
 
-### 🔧 Scripts
+This project explores various techniques for analyzing and transforming speech signals. It includes:
+Spectral analysis using the Fourier Transform (FFT),
+short-Time Fourier Transform (STFT) for spectrograms,
+time-domain and frequency-domain pitch and speed modifications,
+TD-PSOLA and Phase Vocoder techniques, and
+the results demonstrate the value of spectral-temporal processing for speech transformation, pitch shifting, and intelligibility preservation in different use cases.
+
+### Repository Structure
 
 | File | Description |
 |------|-------------|
@@ -19,7 +26,7 @@ This repository contains a signal processing project focused on the spectral and
 | `3_decimacion_señal_lenta_mejorada.py` | Speed-up via decimation (time domain) |
 | `3_interpolacion_señal_rapida_mejorada.py` | Slow-down via interpolation (time domain) |
 
-## ⚙️ Requirements
+## Requirements
 
 - Python 3.x  
 - Dependencies: `numpy`, `scipy`, `matplotlib`, `sounddevice`, `librosa`
@@ -30,7 +37,7 @@ Install dependencies with:
 pip install numpy scipy matplotlib sounddevice librosa
 ```
 
-## ▶️ How to Run
+## How to Run
 Optional: record your own voice
 
 ```bash
@@ -48,20 +55,11 @@ python 3_TFCT_disminucion_velocidad_señal_rapida_mejorada.py
 Output .wav files will be saved in the same directory.
 
 
-## 📄 Report
+## Report
 
 The full project report is available here:
 
  [technical report](./technical_report_en.pdf )
-
-## 🧠 Summary
-
-This project explores various techniques for analyzing and transforming speech signals. It includes:
-Spectral analysis using the Fourier Transform (FFT),
-short-Time Fourier Transform (STFT) for spectrograms,
-time-domain and frequency-domain pitch and speed modifications,
-TD-PSOLA and Phase Vocoder techniques, and
-the results demonstrate the value of spectral-temporal processing for speech transformation, pitch shifting, and intelligibility preservation in different use cases.
 
 ---
 
@@ -69,10 +67,17 @@ the results demonstrate the value of spectral-temporal processing for speech tra
 
 <details>
  <summary>Este repositorio contiene un proyecto de procesamiento de señales enfocado en el análisis espectral y temporal de la voz humana, así como en técnicas de modificación vocal, como el cambio de pitch y la variación de velocidad, implementadas en Python. </summary>
-  
-## 📁 Estructura del Repositorio
 
-### 🔧 Scripts
+## Resumen
+
+Este proyecto explora diversas técnicas para analizar y transformar señales de voz. Incluye:
+Análisis espectral mediante la Transformada de Fourier (FFT),
+transformada de Fourier de Tiempo Corto (STFT) para espectrogramas,
+modificaciones de tono y velocidad en dominio temporal y frecuencia,
+técnicas TD-PSOLA y vocoder de fase, y
+los resultados demuestran la utilidad del procesamiento espectral-temporal para la transformación de la voz, cambio de pitch y preservación de la inteligibilidad en distintas aplicaciones.
+  
+### Estructura del Repositorio
 
 | Archivo                                               | Descripción                                                   |
 |--------------------------------------------------------|---------------------------------------------------------------|
@@ -99,7 +104,7 @@ Instala las dependencias con:
 pip install numpy scipy matplotlib sounddevice librosa
 ```
 
-## ▶️ Cómo Ejecutar
+## Cómo Ejecutar
 
 Opcional: grabar tu propia voz
 
@@ -117,20 +122,10 @@ python 3_TFCT_disminucion_velocidad_señal_rapida_mejorada.py
 ```
 Los archivos .wav de salida se guardarán en el mismo directorio.
 
-## 📄 Informe
+## Informe
 
 El informe completo del proyecto disponible en:
 
  [informe técnico](./informe_tecnico_es.pdf) 
-
-## 🧠 Resumen
-
-Este proyecto explora diversas técnicas para analizar y transformar señales de voz. Incluye:
-Análisis espectral mediante la Transformada de Fourier (FFT),
-transformada de Fourier de Tiempo Corto (STFT) para espectrogramas,
-modificaciones de tono y velocidad en dominio temporal y frecuencia,
-técnicas TD-PSOLA y vocoder de fase, y
-los resultados demuestran la utilidad del procesamiento espectral-temporal para la transformación de la voz, cambio de pitch y preservación de la inteligibilidad en distintas aplicaciones.
-
 
 </details>
