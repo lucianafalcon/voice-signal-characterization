@@ -11,21 +11,6 @@ time-domain and frequency-domain pitch and speed modifications,
 TD-PSOLA and Phase Vocoder techniques, and
 the results demonstrate the value of spectral-temporal processing for speech transformation, pitch shifting, and intelligibility preservation in different use cases.
 
-### Repository Structure
-
-| File | Description |
-|------|-------------|
-| `0_grabacion_voz.py` | Script to record a voice signal |
-| `1_fft_completa_mejorada.py` | FFT analysis using multiple periods |
-| `1_fft_segun_periodo_mejorada.py` | FFT analysis of a single vocal period |
-| `1_señales_periodicas_noperiodicas_mejorada.py` | Identification of periodic and aperiodic phonemes |
-| `2_TD-PSOLA.py` | TD-PSOLA algorithm to modify pitch |
-| `2_espectograma_banda_ancha_angosta_mejorada.py` | STFT spectrograms (narrowband/wideband) |
-| `3_TFCT_aumento_velocidad_señal_lenta_mejorada.py` | Speed-up using phase vocoder (STFT) |
-| `3_TFCT_disminucion_velocidad_señal_rapida_mejorada.py` | Slow-down using STFT |
-| `3_decimacion_señal_lenta_mejorada.py` | Speed-up via decimation (time domain) |
-| `3_interpolacion_señal_rapida_mejorada.py` | Slow-down via interpolation (time domain) |
-
 ## Requirements
 
 - Python 3.x  
