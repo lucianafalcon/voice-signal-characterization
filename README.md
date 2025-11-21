@@ -62,21 +62,6 @@ modificaciones de tono y velocidad en dominio temporal y frecuencia,
 técnicas TD-PSOLA y vocoder de fase, y
 los resultados demuestran la utilidad del procesamiento espectral-temporal para la transformación de la voz, cambio de pitch y preservación de la inteligibilidad en distintas aplicaciones.
   
-### Estructura del Repositorio
-
-| Archivo                                               | Descripción                                                   |
-|--------------------------------------------------------|---------------------------------------------------------------|
-| `0_grabacion_voz.py`                                   | Script para grabar una señal de voz                           |
-| `1_fft_completa_mejorada.py`                           | Análisis FFT usando múltiples períodos                        |
-| `1_fft_segun_periodo_mejorada.py`                      | Análisis FFT de un solo período vocal                         |
-| `1_señales_periodicas_noperiodicas_mejorada.py`        | Identificación de fonemas periódicos y aperiódicos            |
-| `2_TD-PSOLA.py`                                        | Algoritmo TD-PSOLA para modificar el tono                     |
-| `2_espectograma_banda_ancha_angosta_mejorada.py`       | Espectrogramas STFT (banda angosta/ancha)                     |
-| `3_TFCT_aumento_velocidad_señal_lenta_mejorada.py`     | Aceleración mediante vocoder en frecuencia (STFT)             |
-| `3_TFCT_disminucion_velocidad_señal_rapida_mejorada.py`| Desaceleración mediante STFT                                  |
-| `3_decimacion_señal_lenta_mejorada.py`                 | Aceleración por diezmado (dominio temporal)                   |
-| `3_interpolacion_señal_rapida_mejorada.py`             | Desaceleración por interpolación (dominio temporal)           |
-
 ## ⚙️ Requisitos
 
 Python 3.x
